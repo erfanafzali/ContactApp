@@ -19,7 +19,7 @@ function ContactList({ saveContacts, deleteHandler }) {
           ))}
         </ul>
       ) : (
-        <div className="w-full bg-gray-300 text-center text-xl mt-5 py-6 rounded-lg">No Contact Yet</div>
+        <div className="w-full bg-gray-300 text-center text-xl mt-5 py-6 rounded-lg font-bold text-red-700">No Contact Yet</div>
       )}
     </div>
   );
